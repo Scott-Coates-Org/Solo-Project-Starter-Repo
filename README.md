@@ -1,14 +1,26 @@
 # React Solo Project
 
+## Requirements
+
+- `React.js 18`
+- `Node.js ^16.10 || 18`. Need to change your version?
+  - [Window](https://github.com/coreybutler/nvm-windows)
+  - [Mac](https://github.com/tj/n)
+- Firebase (optional, but strongly encouraged for your database, auth, hosting, and storage needs).
+- Hosting: if not Firebase, it must be an pre-approved PaaS
+  - Vercel
+  - Heroku
+  - Railway
+
 ## Getting Started
 
 We are using "yarn" instead of "npm" in this project.
 
 1. Install yarn. `npm install -g yarn`
-2. Install all node modules. `yarn`
+2. Install all node modules. `yarn install`
 3. Boot up the server. `yarn start`
 
-### Hosting (Not necessary in sprint 1)
+### Hosting (Necessary for sprint 1)
 
 1. Go to the official Firebase website and set up a project.
 2. Enable Firebase Hosting by going into the hosting section under Build dropdown.
@@ -16,8 +28,9 @@ We are using "yarn" instead of "npm" in this project.
 4. `npm install -g firebase-tools`
 5. `firebase login`
 6. `firebase init`
-7. `firebase deploy`
-8. If you run into trouble take a look at: https://www.geeksforgeeks.org/how-to-deploy-react-project-on-firebase/
+7. `yarn build` (*remember to always build before deploying your code to production*).
+8. `firebase deploy`
+9. If you run into trouble take a look at: https://www.geeksforgeeks.org/how-to-deploy-react-project-on-firebase/
 
 ### Firebase (if you need authentication or a database in your project)
 
@@ -38,49 +51,31 @@ We are using "yarn" instead of "npm" in this project.
 1. You can adjust the folder structure if you have other preferances.
 2. The "redux" folder contains an example reducer (counter). You can delete this.
 3. You can use whichever CSS library you wish, or just plain CSS/SASS (preferably modules).
-4. Once you delete the dummy text in App.js, don't forget to also delete the logo.svg (unless you need it for some reason?).
-5. Try to write clean code. Follow the DRY (Don't Repeat Yourself) and KISS (Keep It Stupid Simple) principles. If possible, try to follow SOLID principles as well. You should already be familiar and know how to implement the first 2. Read up on SOLID (might be harder to implement).
+4. You may modify the boilerplate (e.g. delete dummy text in App.js, the counter, the the logo.svg, etc.)
+5. V1 of this project is due in 3 weeks. Remeber to KISS (Keep It Simple, Stupid). You need to think of v1 as a conceptual boundary of constraints; anything *outside those boundaries must be saved for a future version*.
 
 <!---
-*** WHEN YOU ARE UP AND RUNNING, DELETE EVERYTHING ABOVE ME EXCEPT THE VERY TOP LINE. ***
-*** RENAME THE TOP LINE WITH YOUR PROJECT NAME. ***
+*** WHEN YOU ARE UP AND RUNNING, YOU MAY DELETE EVERYTHING ABOVE -EXCEPT- THE VERY TOP LINE. ***
 -->
 
 ## Sprint Progress
 
-Fill in all the sprints with your objectives for each sprint. Update your progress by checking off the tasks for each sprint.
-
-### Sprint 1
-
-- [ ] [*Fill me in with Sprint 1 milestones*]
-- [ ] [*Fill me in with Sprint 1 milestones*]
-- [ ] [*Fill me in with Sprint 1 milestones*]
-- [ ] [*Fill me in with Sprint 1 milestones*]
-
-### Sprint 2
-
-- [ ] [*Fill me in with Sprint 2 milestones*]
-- [ ] [*Fill me in with Sprint 2 milestones*]
-- [ ] [*Fill me in with Sprint 2 milestones*]
-- [ ] [*Fill me in with Sprint 2 milestones*]
-
-### Sprint 3
-
-- [ ] [*Fill me in with Sprint 3 milestones*]
-- [ ] [*Fill me in with Sprint 3 milestones*]
-- [ ] [*Fill me in with Sprint 3 milestones*]
-- [ ] [*Fill me in with Sprint 3 milestones*]
+Go to the [milestones tab](../../milestone/1) to track your progress.
 
 ## Project Overview
 
+### Public URL
+
+[Replace me with the link to your app's URL](https://www.google.com/)
+
 ### Description
 
-[*Replace me with a description of your project.*]
+**Required:** update [your repository](https://stackoverflow.com/questions/7757751/how-do-you-change-a-repository-description-on-github) with a short description of your project.
 
 ### Mockups
 
-[*Replace me with mockups*]
+*View `README.md` to see how to replace me with mockups.*
 
-| ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) | ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) |
+| ![Benjamin Bannekat](/mockups/github-cat.png) | ![Benjamin Bannekat](/mockups/github-cat.png) |
 | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) | ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) |
+| ![Benjamin Bannekat](/mockups/github-cat.png) | ![Benjamin Bannekat](/mockups/github-cat.png) |
